@@ -1,12 +1,10 @@
 import React from 'react'
+import walkerGif from '../images/TheWalkers.gif'
 
 const TitleCard = () => {
     return (
       <>
-        <div>The Walkers</div>
-        <div>
-           <hr></hr>
-        </div>
+        <img id='titleCard' src={walkerGif} alt="Neon Flashing Logo of The Walkers" />
       </>
     );
 }
