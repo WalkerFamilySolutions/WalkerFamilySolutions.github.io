@@ -8,7 +8,7 @@ function App() {
   return (
     < >
       <TitleCard/>
-  
+    <h6>Built by Austin and Nicole</h6>
     </>
   );
 }
