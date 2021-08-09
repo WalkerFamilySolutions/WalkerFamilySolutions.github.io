@@ -5,10 +5,15 @@ import TitleCard from './components/TitleCard'
 
 
 function App() {
+    
   return (
     < >
       <TitleCard/>
-    <h6>Built by Austin and Nicole</h6>
+      <br />
+      <br />
+      <br />
+      <ContactForm className='contactForm'/>
+    <h6 id="buit-by">Built by Austin and Nicole</h6>
     </>
   );
 }

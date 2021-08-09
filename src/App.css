@@ -7,3 +7,10 @@ body {
   justify-content: center;
   size: 5cm;
 }
+#built_by{
+ color: "white";
+  display:"flex" 
+}
+.contactForm{
+  height:1000px
+}
