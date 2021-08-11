@@ -1,13 +1,16 @@
 import './App.css';
 import ContactForm from './components/ContactForm';
 import TitleCard from './components/TitleCard'
-
+import AboutUs from './components/AboutUs'; 
 
 
 function App() {
   return (
     <>
       <TitleCard/>
+      <AboutUs/>
+      <br />
+      <br />
       <div id="projects">
         <div className="flexWrapper">
           <div className="projectCard">
