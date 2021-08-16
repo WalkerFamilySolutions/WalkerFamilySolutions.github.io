@@ -2,6 +2,16 @@ body {
   background-color: black;
 }
 
+.aboutUs {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  word-spacing: 1.3px;
+  line-height: 1.6;
+}
+
 .alignCenter {
   display: flex;
   justify-content: center;
@@ -12,7 +22,7 @@ body {
   padding: 0 10px;
   flex-direction: column;
   justify-content: space-between;
-  color: #ff00ff;
+  color: #e8275a;
   font-weight: 900;
   font-size: 24px;
 }
@@ -49,9 +59,9 @@ body {
   justify-content: center;
   color: white;
   text-align: center;
-  border: 2px solid #ff00ff;
+  border: 2px solid #e8275a;
   border-radius: 8px;
-  background-color: rgb(255, 0, 255, 0.1);
+  background-color: rgb(232, 39, 90, 0.2);
   font-size: 40px;
   cursor: pointer;
   font-family: "Russo One", sans-serif;
@@ -66,7 +76,6 @@ body {
   display: flex;
   justify-content: center;
   height: 500px;
-  margin-bottom: 100px;
 }
 
 @-webkit-keyframes bounceRight {
@@ -174,26 +183,16 @@ body {
 }
 .neonText {
   color: #fff;
-  text-shadow:
-    0 0 3px rgb(51, 245, 248),
-    0 0 5px rgb(51, 245, 248),
-    0 0 11px rgb(51, 245, 248),
-    0 0 20px rgb(51, 245, 248),
-    0 0 20px rgb(51, 245, 248),
-    0 0 20px rgb(51, 245, 248),
-    0 0 20px rgb(51, 245, 248),
-    /* 0 0 20px rgb(51, 245, 248); */
+  text-shadow: 0 0 3px rgb(51, 245, 248), 0 0 5px rgb(51, 245, 248),
+    0 0 11px rgb(51, 245, 248), 0 0 20px rgb(51, 245, 248),
+    0 0 20px rgb(51, 245, 248), 0 0 20px rgb(51, 245, 248),
+    0 0 20px rgb(51, 245, 248);
+  /* 0 0 20px rgb(51, 245, 248); */
 }
 /* uncomment the last line of neon text to make it glow */
-.neonWrapper{
-    box-shadow:
-    0 0 0.1vw  0.4vw #fff7f7,   
-    0 0 0.4vw  0.6vw #e97272, 
-    0 0   4vw  0.4vw #e50b0b,
-    inset 0 0 1.5vw  0.4vw #e50b0b,
-    inset 0 0 0.4vw  0.2vw #e97272,
-    inset 0 0 0.5vw  0.2vw #fff7f7;
-    border-radius: 1.5rem;
-    width: 90%;
-    margin: auto;
+.neonWrapper {
+  box-shadow: 0 0 0.1vw 0.4vw #fff7f7, 0 0 0.4vw 0.6vw #f44d9b,
+    0 0 4vw 0.4vw #e8275a, inset 0 0 1.5vw 0.4vw #e8275a,
+    inset 0 0 0.4vw 0.2vw #f44d9b, inset 0 0 0.5vw 0.2vw #fff7f7;
+  border-radius: 1rem;
 }
