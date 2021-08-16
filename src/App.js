@@ -16,6 +16,9 @@ function App() {
         <ProjectsCard name="Nicole" swipeDirection="right" />
         <ProjectsCard name="Austin" swipeDirection="left" />
       </div>
+      <br />
+      <br />
+      <ContactForm></ContactForm>
       <h6>Built by Austin and Nicole</h6>
     </>
   );
