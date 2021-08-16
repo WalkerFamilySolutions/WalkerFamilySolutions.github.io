@@ -196,3 +196,10 @@ body {
     inset 0 0 0.4vw 0.2vw #f44d9b, inset 0 0 0.5vw 0.2vw #fff7f7;
   border-radius: 1rem;
 }
+#built_by{
+ color: "white";
+  display:"flex" 
+}
+.contactForm{
+  height:1000px
+}
