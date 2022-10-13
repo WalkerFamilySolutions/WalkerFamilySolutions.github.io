@@ -2,9 +2,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.connect-icons {
+.footer {
+    position: fixed;
+    padding: 30px 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     display: flex;
-    padding: 50px;
     justify-content: center;
 }
 
@@ -14,6 +18,11 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+.content-container > p {
+    margin: 30px auto;
+    width: 80%;
 }
 
 .header {
@@ -30,6 +39,28 @@ body {
     cursor: pointer;
 }
 
+.product {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.product > p {
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(43,96,88);
+    color: rgb(43,96,88);
+}
+
+.products {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
 .menu-button {
     border: none;
     background-color: transparent;
@@ -38,6 +69,12 @@ body {
 }
 
 #logo {
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+
+    @media(max-width: 450px) {
+        width: 200px;
+        height: 200px;
+    }
 }
